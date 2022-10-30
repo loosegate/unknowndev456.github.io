@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>King Aryan</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/092f3a1f4a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h2 class="logo">Aryan <span> Singh</span></h2>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Programmer</p>
+                <h1>Hi, I'm <span>Aryan</span> <br> Singh From India</h1>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ........................About............................... -->
+
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <a href="#header"><img src="img/user.jpg"></a>
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I'am the student of Delhi World Public School, Studying in 9<sup>th</sup> class. I aways want to
+                        learn something in new creative/sharing way. so that all can cheak. so, I start learning
+                        programming. now I learn something through making website. and I also like to make game, apps,
+                        Android Development, graphics designer and UI/UX designer. I am learn't all this through youtube
+                        and social apps.
+                    <h4>
+                        NOTE: I'm Not a Professional Coder. (I'm a student)</p>
+                    </h4>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web/ App Development</li>
+                            <li><span>App Development</span><br>Building Android/ios apps</li>
+                            <li><span>Game Development</span><br>Building Games through Unity</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2022 - current </span><br>UI/UX design learning</li>
+                            <li><span>2021 - 2022</span><br>Start website Development</li>
+                            <li><span>2020 - 2021</span><br>Start learning programming</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>current</span><br>Student Of D.W.P.S</li>
+                            <li><span>Web Development</span><br>Coaching Nearby</li>
+                            <li><span>Game Development</span><br>Coaching Nearby</li>
+                            <li><span>App Development</span><br>Through social apps/google</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- -----------------services---------- -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>I'm a web developer. If you want any type of website (Shopping, E-commerce website, Personal website, Portfolio websites, Nonprofit website, Business website, Entertainment website, Brochure websites, Educational websites, Online Courses, Online Educational)then just contact me.</p>
+                    <a href="#contact">Contact Me</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-gamepad"></i>
+                    <h2>Game Development</h2>
+                    <p>I'm also a Games Developer. I spend most of the time in making games. If you want any types of Games. such as (3d, 2d, fighting games, normal games, futuristic games). then just contact me.</p>
+                    <a href="#contact">Contact Me</a>
+                </div>
+
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>I also like to make the interfaces of apps and also Android Development. If you want this and for more information just contact me.</p>
+                    <a href="#contact">Contact Me</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ----------portfolio--------------- -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="img/App-development.png" alt="">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app connects you to the talented people around the world. Download it from Play store</p>
+                        <!-- <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a> -->
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/Web-Mobile-Development.jpg" alt="">
+                    <div class="layer">
+                        <h3>website</h3>
+                        <p>The website that I make as a practice</p>
+                        <a href="https://loosegate.github.io/Aryan_Coding_Centre.github.io/"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/work-2.png" alt="">
+                    <div class="layer">
+                        <h3>Online Sopping App</h3>
+                        <p>The app connects you to the talented people around the world. Download it from Play store</p>
+                        <!-- <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a> -->
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+
+    <!-- --------------------contact------------------- -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-sharp fa-solid fa-paper-plane"></i>unknowndev456.com</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=100087551700906"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com/unknowndev456"><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href="https://www.instagram.com/unknowndev456/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/channel/UCNbU88K93awlpDElWGGVw-Q"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                    <a href="#" class="btn btn2">Go Back</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright © Aryan. Made with <i class="fa-solid fa-heart"></i>by King Aryan</p>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
